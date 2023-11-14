@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raio Arquitetura</title>
+    <link rel="icon" href="/img/logoRaio.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="controller.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+                <!-- Cabeçalho -->
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <div class="btn-menu">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </div>
+            </label>
+            <ul class="lista-menu body-lista">
+                <li class="lista-menu__item">
+                    <a href="/index.html" class="lista-menu__link">Início</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/projetos.html" class="lista-menu__link">Projetos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/serviços.html" class="lista-menu__link">Serviços</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/contato.html" class="lista-menu__link">Fale Conosco</a>
+                </li>
+            </ul>
+            <img src="img/logoRaioArquiteturaBranco.png" alt="Logo da Raio Arquitetura" class="container__imagem imagem-logo logo-header">
+        </div>
+
+        <ul class="opções">
+            <!-- <input type="checkbox" id="opções-menu" class="opções__botão"> -->
+            <!-- <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label> -->
+
+            <!-- <ul class="lista-menu body-lista">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul> -->
+
+            <li class="opções__item"><a href="/index.html" class="opções__link">Início</a></li>  
+            <li class="opções__item"><a href="/projetos.html" class="opções__link">Projetos</a></li>
+            <li class="opções__item"><a href="/serviços.html" class="opções__link">Serviços</a></li>
+            <li class="opções__item"><a href="/contato.html" class="opções__link">Fale Conosco</a></li>
+        </ul>
+
+        <div class="flex-content-center">
+            <img src="img/raioArquitetura.png" alt="Logo da Raio Arquitetura" class="container__imagem imagem-logo">
+        </div>
+
+        <!-- <div class="container"> -->
+            <!-- <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a> -->
+            <!-- <div class="btn-menu">
+                <a href="#" class="container__link">
+                    <img src="/img/Icon-search.png" alt="Icone Lupa" class="container__imagem">
+                </a> -->
+                <!-- <p class="container__texto">Meu perfil</p> -->
+            <!-- </div>             -->
+        <!-- </div> -->
+    </header>
+                            <!-- Campo de pesquisa  -->
+    <!-- <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section> -->
+
+
+                            <!-- SLIDES  -->
+    <section class="carrossel">
+
+        <div class="card">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+                <!-- 1º coluna -->
+                <div class="descrição">
+                    <!-- <h3 class="descrição__titulo">c</h3>--> 
+                     <h2 class="descrição__titulo-livro">A Raio Arquitetura ilumina seus projetos, transformando ideias em realidade com paixão e precisão.</h2> 
+                    <h2 class="descrição__texto">A Raio Arquitetura brilha na construção de sonhos, unindo valores sólidos, 
+                        qualidade incomparável e um comprometimento inabalável para criar espaços que inspiram e transformam.
+                    </h2>
+                </div>
+                <!-- 2º coluna -->
+                <!-- <img src="img/Angular.svg" class="descrição__imagem"> -->
+            </div>
+
+            <!-- 2º linha -->
+            <!-- <div class="card__botões"> -->
+                <!-- 1º coluna -->
+                <!-- <ul class="botões">
+                    <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul> -->
+                <!-- 2º coluna -->
+                <!-- <a href="#" class="botões__ancora">Saiba mais</a> -->
+            <!-- </div> -->
+        </div>
+        
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->             
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/projeto1.jpg" alt="Projeto 1"></div>
+                    <div class="swiper-slide"><img src="img/projeto2.jpg" alt="Projeto 2"></div>
+                    <div class="swiper-slide"><img src="img/projeto3.jpg" alt="Projeto 3"></div>
+                    <div class="swiper-slide"><img src="img/projeto4.jpg" alt="Projeto 4"></div>
+                    <div class="swiper-slide"><img src="img/projeto5.jpg" alt="Projeto 5"></div>
+                    <div class="swiper-slide"><img src="img/projeto6.jpg" alt="Projeto 6"></div>
+                </div>
+
+                <!-- If we need pagination -->
+
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- <section class="carrossel"> -->
+        <!-- <h2 class="carrossel__titulo">Mais vendidos</h2> -->
+        <!-- Slider main container -->
+        <!-- <div class="carrossel__container"> -->
+            <!-- <div class="swiper"> -->
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+
+                <!-- <div class="swiper-wrapper"> -->
+                    <!-- Slides -->
+                    <!-- <div class="swiper-slide"><img src="img/ApacheKafka.svg"
+                            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                    <div class="swiper-slide"><img src="img/Liderança.svg"
+                            alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="img/Javascript.svg"
+                            alt="Livro sobre javascript assertivo da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro Guia front end"></div>
+                    <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
+                    <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
+                </div> -->
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div> -->
+
+            <!-- <div class="card"> -->
+                <!-- 1º linha -->
+                <!-- <div class="card__descrição"> -->
+                    <!-- 1º coluna -->
+                    <!-- <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Autora do Mês</h3>
+                        <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
+                        <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em
+                            Front-End.
+                        </p>
+                    </div> -->
+                    <!-- 2º coluna -->
+                    <!-- <img src="img/Escritora.svg" class="descrição__imagem"> -->
+                <!-- </div> -->
+
+                <!-- 2º linha -->
+                <!-- <div class="card__botões"> -->
+                    <!-- 1º coluna -->
+                    <!-- <ul class="botões">
+                        <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul> -->
+                    <!-- 2º coluna -->
+                    <!-- <a href="#" class="botões__ancora">Saiba mais</a>
+                </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
+
+    <!-- <section class="tópicos">
+        <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Android</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Marketing Digital</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Agile</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Startups</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">HTML e CSS</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Python</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">OO</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Java</a>
+            </li>
+        </ul>
+    </section> -->
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Gostaria de fazer uma avaliação?</h2>
+            <p class="contato__texto">Clique no botão para ser redirecionado a um formulário, onde poderemos compreender melhor o seu projeto.</p>
+        </div>
+        <a href="https://forms.gle/gSyE2b5HAP4LWvBQA" target="_blank">
+            <button type="button" class="contato__formulario "></button>
+        </a>
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+
+        <div class="flex-column">
+            <img class="logo-rodape" src="img/logoRaioArquiteturaBranco.png" alt="Logo da raio arquitetura">
+            <span class="textoRodape mobile">
+                &nbsp;&nbsp;Somos um escritório de arquitetura com foco na criação de projetos personalizados, racionais e otimizados, 
+                propondo soluções que conciliam qualidade, função, estética e custo compatível com suas necessidades, 
+                para que você obtenha os melhores resultados com o seu investimento. Estamos comprometidos com a realização do seu sonho. 
+                Isso é o que nos move!
+            </span>            
+        </div>
+        <div class="conteudo-rodape">
+            <div class="textoRodape">
+                <ul class="f-bold f-20" id="contato-dropdown">Contato</ul>
+                    <!-- <div id="contato-opcoes" style="display: none;"> -->
+                        <li class="flex-align-center flex-icons">                            
+                            <a tooltype="contato.raioarquitetura@gmail.com" href="mailto:contato.raioarquitetura@gmail.com">
+                                <span>
+                                  <img class="" src="./img/icon-mensagem.png" alt="Ícone de Mensagem">
+                                </span>
+                              </a>
+                            <a href="https://wa.me/556193970714" target="_blank">
+                                <img class="" src="./img/icon-whatsapp.svg" alt="Ícone do WhatsApp">
+                            </a>
+                            <a href="https://www.instagram.com/raioarquitetura/" target="_blank">
+                                <img class="" src="./img/icon-instagram.svg" alt="Ícone do Instagram">
+                            </a>
+                        </li>
+                                          
+                    <!-- </div> -->
+            </div>
+            <div class="textoRodape">
+                <ul class="f-bold f-20" id="serviços-dropdown">Nossos Serviços</ul>
+                <!-- <div id="serviços-opcoes" style="display: none;"> -->
+                    <li><a href="#" class="lista-rodapé__link">Projetos de Casas</a></li>
+                    <li><a href="#" class="lista-rodapé__link">Projetos de Reformas</a></li>
+                    <li><a href="#" class="lista-rodapé__link">Consultoria</a></li>
+                <!-- </div> -->
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById("menu");
+        const menu = document.querySelector(".lista-menu");
+      
+        // Event listener para abrir/fechar o menu
+        menuButton.addEventListener("change", () => {
+          if (menuButton.checked) {
+            menu.style.display = "block";
+            // Adicione um event listener no documento para fechar o menu ao clicar fora
+            document.addEventListener("click", closeMenu);
+          } else {
+            menu.style.display = "none";
+            // Remova o event listener quando o menu estiver fechado
+            document.removeEventListener("click", closeMenu);
+          }
+        });
+      
+        function closeMenu(event) {
+          if (!menu.contains(event.target) && event.target !== menuButton) {
+            // Clique fora do menu, fecha o menu
+            menu.style.display = "none";
+            document.removeEventListener("click", closeMenu);
+            menuButton.checked = false;
+          }
+        }
+      </script>
+
+<script>
+    // Obtém a referência para o elemento do ícone
+    const iconMensagem = document.getElementById("icon-mensagem");
+  
+    // Adiciona um evento de clique ao elemento do ícone
+    iconMensagem.addEventListener("click", function() {
+      // Cria um elemento de texto temporário para copiar para a área de transferência
+      const tempInput = document.createElement("input");
+      tempInput.value = "contato.raioarquitetura@gmail.com";
+      document.body.appendChild(tempInput);
+  
+      // Seleciona o texto dentro do elemento de texto temporário
+      tempInput.select();
+      tempInput.setSelectionRange(0, 99999); // Para seleção em navegadores móveis
+  
+      // Copia o texto para a área de transferência
+      document.execCommand("copy");
+  
+      // Remove o elemento temporário
+      document.body.removeChild(tempInput);
+  
+      // Feedback ao usuário
+      alert("Endereço de e-mail copiado para a área de transferência: contato.raioarquitetura@gmail.com");
+    });
+  </script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        // Quando você clica em "Contato," exibe ou esconde as opções
+        $("#contato-dropdown").click(function() {
+            $("#contato-opcoes").slideToggle();
+        });
+    });
+    $(document).ready(function() {
+        // Quando você clica em "Contato," exibe ou esconde as opções
+        $("#serviços-dropdown").click(function() {
+            $("#serviços-opcoes").slideToggle();
+        });
+    });
+    </script> -->
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 1000,
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            a11y: {
+                prevSlideMessage: 'Previous slide',
+                nextSlideMessage: 'Next slide',
+            },
+            effect: 'fade',
+                fadeEffect: {
+                    rotate: 30,
+                    slideShadows: false,
+            },
+            autoplay: {
+                delay: 2000,
+                
+                // agarrarCursor: true,
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+            },
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slideToClickedSlide: true,
+            touchReleaseOnEdges: 0,
+            // agarrarCursor: true,
+            
+            // effect: 'creative',
+            // creativeEffect: {
+            //     prev: {
+            //     // will set `translateZ(-400px)` on previous slides
+            //     translate: [0, 0, -400],
+            //     },
+            //     next: {
+            //     // will set `translateX(100%)` on next slides
+            //     translate: ['100%', 0, 0],
+            //     },
+            // },
+           
+        });
+
+    </script>
+</body>
+
+</html>
