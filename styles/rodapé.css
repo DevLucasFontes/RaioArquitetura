@@ -1,0 +1,107 @@
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: #2b2e38;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.flex-icons{
+    display: flex;
+    gap: 1em;    
+}
+
+.lista-rodapé {
+    display: none;
+}
+.logo-rodape{
+    width: 150px;
+}
+.icon-whatsapp{
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.textoRodape{
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;    
+}
+
+.lista-rodapé {
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.conteudo-rodape{
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+.lista-rodapé__link {
+    color: var(--cinza-secundario);
+    text-decoration: none;
+    padding: 1em .5em;
+}
+
+#contato-dropdown {
+    cursor: pointer;
+}
+
+#contato-opcoes {
+    display: none;
+}
+
+    
+
+
+@media screen and (min-width: 1024px) {
+   
+    .rodapé {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .flex-column{
+        width: 55%;
+        gap: 0;
+    }
+
+    .rodapé__titulo {
+        font-size: 24px;
+    }
+    .mobile{
+        display: flex;
+    }
+    .lista-rodapé__item {
+        display: flex;
+        align-items: center;
+    }
+    .lista-rodapé__titulo, .lista-rodapé__link{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .lista-rodapé__titulo {
+        color: var(--cinza);
+        margin-bottom: 1em;
+    }
+    .lista-rodapé__link {
+        color: var(--cinza-secundario);
+        text-decoration: none;
+        padding: 1em .5em;
+    }
+}

@@ -1,0 +1,254 @@
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.faleConosco{
+  width: 85%;  
+}
+.flex-column-contato{
+  display: flex;
+  flex-direction: column;
+}
+.card-imagem-contato-mobile{
+  margin: 0 auto;
+  width: 100%;
+}
+.card-imagem-contato{
+  width: 60%;
+  display: none;
+}
+.imagem-contato{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.contato__titulo,.contato__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__formulario{
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    padding: 1em;
+    width: 150px;
+    color: var(--azul);
+}
+
+.contato__formulario::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url("../img/Email.svg") no-repeat;
+    padding-left: 2em;
+}
+
+.f-bold{
+    font-weight: 700;
+} 
+.f-20{
+    font-size: 1.5em;
+}
+
+/* TESTE BOTÃO */
+
+
+
+
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #1ECD97;
+  color: #1ECD97;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+button:hover {
+  color: white;
+  background: #1ECD97;
+}
+button:active {
+  letter-spacing: 2px;
+}
+button:after {
+  content: "ORÇAMENTO";
+}
+
+.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #1ECD97;
+  -webkit-animation: rotating 2s 0.25s linear infinite;
+          animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "";
+}
+.onclic:hover {
+  color: #1ECD97;
+  background: white;
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: #1ECD97;
+}
+.validate:after {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+@-webkit-keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width:550px) {
+  
+  .card-imagem-contato-mobile{
+    margin: 0 auto;
+    width: 80%;
+  }
+  .descriçãoCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+}
+@media screen and (min-width:670px) {
+  .flex-column-contato{
+    display: flex;
+    flex-direction: row!important;
+  }
+  .card-imagem-contato-mobile{
+    display: none;
+  }
+  .card-imagem-contato{
+    display: block;
+    width: 55%;
+  }
+  .faleConosco{
+    width: 90%;
+  }
+  .carrosel{
+    margin: 0 auto;
+  }
+  .descriçãoCard{    
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    .contato__descrição {
+        width: 45%;
+    }
+    .contato__formulario {
+        width: 150px;
+    }
+    .contato__titulo {
+        font-size: 24px;
+    }
+    .descriçãoCard{    
+      width: 100%;
+    }
+    .faleConosco{
+      width: 90%; 
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .card-imagem-contato{
+      display: block;
+      width: 100%;
+    }
+    .card-imagem-contato-mobile{
+      display: none;
+    }
+    .imagem-contato{
+      width: 100%;
+    }
+    .flex-column-contato{
+      width: 97%;
+      gap: 8px;
+    }
+    .descriçãoCard{
+      width: 90%;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+  
+  .faleConosco{
+    width: 90%;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .descriçãoCard{
+    width: 80%;
+  }
+
+}
+@media screen and (min-width:1400px) {
+  
+  .faleConosco{
+    width: 75%;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .descriçãoCard{
+    width: 70%!important;
+  }
+
+}
+@media screen and (min-width:1600px) {
+  
+  .faleConosco{
+    width: 60%;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

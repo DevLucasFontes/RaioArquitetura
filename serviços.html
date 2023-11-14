@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raio Arquitetura</title>
+    <link rel="icon" href="/img/logoRaio.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="controller.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+                <!-- Cabeçalho -->
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <div class="btn-menu">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </div>
+            </label>
+            <ul class="lista-menu body-lista">
+                <li class="lista-menu__item">
+                    <a href="/home.html" class="lista-menu__link">Início</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/projetos.html" class="lista-menu__link">Projetos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/serviços.html" class="lista-menu__link">Serviços</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/contato.html" class="lista-menu__link">Fale Conosco</a>
+                </li>
+            </ul>
+            <img src="img/logoRaioArquiteturaBranco.png" alt="Logo da Raio Arquitetura" class="container__imagem imagem-logo logo-header">
+        </div>
+
+        <ul class="opções">
+            <li class="opções__item"><a href="/home.html" class="opções__link">Início</a></li>  
+            <li class="opções__item"><a href="/projetos.html" class="opções__link">Projetos</a></li>
+            <li class="opções__item"><a href="/serviços.html" class="opções__link">Serviços</a></li>
+            <li class="opções__item"><a href="/contato.html" class="opções__link">Fale Conosco</a></li>
+        </ul>
+
+        <div class="flex-content-center">
+            <img src="img/raioArquitetura.png" alt="Logo da Raio Arquitetura" class="container__imagem imagem-logo">
+        </div>
+
+    </header>
+
+                            <!-- SLIDES  -->
+    <section class="carrossel">
+        <div class="caixa-serviços">
+
+            <div class="titulo-serviços">
+                <h1 class="">Serviços</h1>
+            </div>
+
+            <div class="container-serviços">
+                <div class="card serviços borda">
+                    <div class="card__descrição card-serviços">
+                        <div class="card-imagem-contato-mobile card-serviço-imagem">
+                            <img class="imagem-contato " src="./img/viabilidade (1).png" alt="Icone estudo de viabilidade">
+                        </div>
+                        <div class="descrição w-100">            
+                            <p class="descrição__titulo-livro contato__titulo serviço-titulo">Estudo de Viabilidade</p> <br />
+                            <p class="descrição__texto serviço-texto">Consiste em avaliar se determinado projeto é realizável ou não. É uma ferramenta capaz de fornecer informações a respeito da sua rentabilidade e qual o seu impacto na empresa. 
+                                Seu objetivo é prever ou antecipar os cenários otimistas e pessimistas de um plano. Este estudo também é chama do <em>Test Fit</em> ou estudo de layout.</p><br /><br />                          
+                        </div>             
+                    </div>        
+                </div>
+                <div class="card serviços borda">
+                    <div class="card__descrição card-serviços">
+                        <div class="card-imagem-contato-mobile card-serviço-imagem">
+                            <img class="imagem-contato " src="./img/viabilidade.png" alt="Icone estudo de viabilidade">
+                        </div>
+                        <div class="descrição w-100">            
+                            <p class="descrição__titulo-livro contato__titulo serviço-titulo">Projetos Complementares</p> <br />
+                            <p class="descrição__texto serviço-texto">Os projetos complementares são um guia para execução da obra e importante para que as necessidades do cliente ou usuário sejam transformadas na melhor solução, o que não inclui apenas estética, mas também, condições de habitação, acesso, conforto, eficiência da edificação, racionalização dos custos e melhores prazos.</p><br /><br />                          
+                        </div>             
+                    </div>        
+                </div>
+                <div class="card serviços borda">
+                    <div class="card__descrição card-serviços">
+                        <div class="card-imagem-contato-mobile card-serviço-imagem">
+                            <img class="imagem-contato " src="./img/planejamento.png" alt="Icone estudo de viabilidade">
+                        </div>
+                        <div class="descrição w-100">            
+                            <p class="descrição__titulo-livro contato__titulo serviço-titulo">Planejamento de Obras</p> <br />
+                            <p class="descrição__texto serviço-texto">O planejamento de obras tem como objetivo principal prever os riscos, inconformidades e os impactos positivos e negativos da construção do projeto, seja para a construtora ou para os clientes envolvidos.</p><br /><br />                          
+                        </div>             
+                    </div>        
+                </div>
+                <div class="card serviços borda">
+                    <div class="card__descrição card-serviços">
+                        <div class="card-imagem-contato-mobile card-serviço-imagem">
+                            <img class="imagem-contato " src="./img/plano.png" alt="Icone estudo de viabilidade">
+                        </div>
+                        <div class="descrição w-100">            
+                            <p class="descrição__titulo-livro contato__titulo serviço-titulo">Projeto de Arquitetura e Layout</p> <br />
+                            <p class="descrição__texto serviço-texto">Assim como todas as outras, esta planta também é de grande importância para a elaboração de um projeto, já que auxilia a definir as áreas de circulação de acordo com a posição dos equipamentos e mobiliários, definição das áreas comuns como salas de reuniões, áreas de convivência, entre outras, específicas para cada cliente.</p><br /><br />                          
+                        </div>             
+                    </div>        
+                </div>
+                <div class="card serviços borda">
+                    <div class="card__descrição card-serviços">
+                        <div class="card-imagem-contato-mobile card-serviço-imagem">
+                            <img class="imagem-contato " src="./img/arquiteto.png" alt="Icone estudo de viabilidade">
+                        </div>
+                        <div class="descrição w-100">            
+                            <p class="descrição__titulo-livro contato__titulo serviço-titulo">Gerenciamento de Obras</p> <br />
+                            <p class="descrição__texto serviço-texto">É um tipo de serviço contínuo e dinâmico, que tem como foco a efetivação de projetos de arquitetura e engenharia e suas execuções. É a melhor garantia para que tudo se materialize no tempo proposto, e dentro do orçamento que foi estipulado.</p><br /><br />                          
+                        </div>             
+                    </div>        
+                </div>
+                <div class="card serviços borda">
+                    <div class="card__descrição card-serviços">
+                        <div class="card-imagem-contato-mobile card-serviço-imagem">
+                            <img class="imagem-contato " src="./img/tijolos.png" alt="Icone estudo de viabilidade">
+                        </div>
+                        <div class="descrição w-100">            
+                            <p class="descrição__titulo-livro contato__titulo serviço-titulo">Execução de Obras</p> <br />
+                            <p class="descrição__texto serviço-texto">É a execução de todas as etapas do projeto da fundação ao acabamento, consistindo em construir o que consta em projeto, respeitando as técnicas construtivas e as normas técnicas vigentes.</p><br /><br />                          
+                        </div>             
+                    </div>        
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Gostaria de fazer uma avaliação?</h2>
+            <p class="contato__texto">Clique no botão para ser redirecionado a um formulário, onde poderemos compreender melhor o seu projeto.</p>
+        </div>
+        <a href="https://forms.gle/gSyE2b5HAP4LWvBQA" target="_blank">
+            <button type="button" class="contato__formulario "></button>
+        </a>
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+
+        <div class="flex-column">
+            <img class="logo-rodape" src="img/logoRaioArquiteturaBranco.png" alt="Logo da raio arquitetura">
+            <span class="textoRodape mobile">
+                &nbsp;&nbsp;Somos um escritório de arquitetura com foco na criação de projetos personalizados, racionais e otimizados, 
+                propondo soluções que conciliam qualidade, função, estética e custo compatível com suas necessidades, 
+                para que você obtenha os melhores resultados com o seu investimento. Estamos comprometidos com a realização do seu sonho. 
+                Isso é o que nos move!
+            </span>            
+        </div>
+        <div class="conteudo-rodape">
+            <div class="textoRodape">
+                <ul class="f-bold f-20" id="contato-dropdown">Contato</ul>
+                        <li class="flex-align-center flex-icons">                            
+                            <a href="mailto:contato.raioarquitetura@gmail.com">
+                                <span>
+                                  <img class="" src="./img/icon-mensagem.png" alt="Ícone de Mensagem">
+                                </span>
+                              </a>
+                            <a href="https://wa.me/556193970714" target="_blank">
+                                <img class="" src="./img/icon-whatsapp.svg" alt="Ícone do WhatsApp">
+                            </a>
+                            <a href="https://www.instagram.com/raioarquitetura/" target="_blank">
+                                <img class="" src="./img/icon-instagram.svg" alt="Ícone do Instagram">
+                            </a>
+                        </li>
+                                          
+            </div>
+            <div class="textoRodape">
+                <ul class="f-bold f-20" id="serviços-dropdown">Nossos Serviços</ul>
+                    <li><a href="#" class="lista-rodapé__link">Projetos de Casas</a></li>
+                    <li><a href="#" class="lista-rodapé__link">Projetos de Reformas</a></li>
+                    <li><a href="#" class="lista-rodapé__link">Consultoria</a></li>
+            </div>
+        </div>
+        
+
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById("menu");
+        const menu = document.querySelector(".lista-menu");
+      
+        // Event listener para abrir/fechar o menu
+        menuButton.addEventListener("change", () => {
+          if (menuButton.checked) {
+            menu.style.display = "block";
+            // Adicione um event listener no documento para fechar o menu ao clicar fora
+            document.addEventListener("click", closeMenu);
+          } else {
+            menu.style.display = "none";
+            // Remova o event listener quando o menu estiver fechado
+            document.removeEventListener("click", closeMenu);
+          }
+        });
+      
+        function closeMenu(event) {
+          if (!menu.contains(event.target) && event.target !== menuButton) {
+            // Clique fora do menu, fecha o menu
+            menu.style.display = "none";
+            document.removeEventListener("click", closeMenu);
+            menuButton.checked = false;
+          }
+        }
+      </script>
+
+<script>
+    // Obtém a referência para o elemento do ícone
+    const iconMensagem = document.getElementById("icon-mensagem");
+  
+    // Adiciona um evento de clique ao elemento do ícone
+    iconMensagem.addEventListener("click", function() {
+      // Cria um elemento de texto temporário para copiar para a área de transferência
+      const tempInput = document.createElement("input");
+      tempInput.value = "contato.raioarquitetura@gmail.com";
+      document.body.appendChild(tempInput);
+  
+      // Seleciona o texto dentro do elemento de texto temporário
+      tempInput.select();
+      tempInput.setSelectionRange(0, 99999); // Para seleção em navegadores móveis
+  
+      // Copia o texto para a área de transferência
+      document.execCommand("copy");
+  
+      // Remove o elemento temporário
+      document.body.removeChild(tempInput);
+  
+      // Feedback ao usuário
+      alert("Endereço de e-mail copiado para a área de transferência: contato.raioarquitetura@gmail.com");
+    });
+  </script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 1000,
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            a11y: {
+                prevSlideMessage: 'Previous slide',
+                nextSlideMessage: 'Next slide',
+            },
+            effect: 'fade',
+                fadeEffect: {
+                    rotate: 30,
+                    slideShadows: false,
+            },
+            autoplay: {
+                delay: 2000,
+                
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+            },
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slideToClickedSlide: true,
+            touchReleaseOnEdges: 0,
+           
+        });
+
+    </script>
+</body>
+
+</html>

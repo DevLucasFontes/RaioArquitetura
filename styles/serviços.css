@@ -1,0 +1,63 @@
+
+.titulo-serviços{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--azul);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.card-serviços{
+    width: 100%;
+    gap: 8px;
+    align-items: center!important;
+}
+.card-serviço-imagem{
+    width: 40%!important;
+}
+.serviço-titulo{
+    font-size: 22px;
+}
+.serviço-texto{
+    font-size: 15px;
+    font-family: var(--fonte-montserrat);
+    line-height: 1.8;
+}
+.w-100{
+    width: 100%;
+    padding: 8px;
+}
+.borda{
+    border: solid 1px #c3c3c3;
+}
+
+
+@media screen and (min-width:670px) {
+    
+    .card-imagem-contato-mobile{
+      display: none;
+    }
+    .card-serviço-imagem{
+      display: block;
+      width: 30%;
+    }
+    .container-serviços{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+   
+}
+  @media screen and (min-width:980px) {
+    
+
+    .serviços{
+        width: 40%;
+        margin: 0 0 2em 0;
+        
+    }
+}
